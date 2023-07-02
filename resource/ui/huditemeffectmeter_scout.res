@@ -28,7 +28,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
