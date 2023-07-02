@@ -8,3 +8,7 @@ fixed spy cloak overlapping with disguise
 menu
 
 almost all backgrounds removed
+# how download the hud?
+its simple click o code 
+and click on download zip
+extract the zip and them place it on tf/custom
