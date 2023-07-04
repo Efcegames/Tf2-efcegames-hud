@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"160"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"160"	[$WIN32]
 		"ypos"			"r75"	[$WIN32]
 		"ypos_minmode"	"r110"	[$WIN32]
