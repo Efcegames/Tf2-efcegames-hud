@@ -6,9 +6,9 @@ this hud is still in devolepment
 # CHANGES FROM 0.5.3 BETA
 new tab menu
 
-new medic charge
+add some backgrunds
 
-fixed some bugs
+fixed ui 
 # how download the hud?
 its simple click on code
 
