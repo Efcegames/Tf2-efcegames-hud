@@ -98,7 +98,7 @@
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
 		}
-
+        
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"

@@ -73,7 +73,6 @@
 	
 	HudMedicCharge
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
@@ -85,7 +84,6 @@
 		"ypos"			"r90"	[$X360]
 		"wide"			"200"
 		"tall"			"100"
-		""fillcolor"		"0 0 0 100"
 	}
 	
 	HudDemomanCharge
@@ -266,7 +264,7 @@
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
-		"fillcolor"		"0 0 0 125"
+
 		if_vr
 		{
 			"ypos"		"370"

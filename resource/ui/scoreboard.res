@@ -34,10 +34,10 @@
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg_solid"
 		"scaleImage"		"1"
+		"fillcolor"     "0 0 255 120"
 		
 		if_mvm
 		{
@@ -101,11 +101,10 @@
 		"tall"			"71"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg_solid"
 		"scaleImage"		"1"
-
+        "fillcolor"     "255 0 0 120"
 		if_mvm
 		{
 			"visible"		"0"
@@ -156,22 +155,23 @@
 		"wide"			"49"
 		"tall"			"49"
 		"visible"		"0"
-		"fillcolor"     "0 0 0 50"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"MainBG"
 	{
-		"ControlName"		"imagePanel"
+		"ControlName"		"imagepanel"
 		"fieldName"		"MainBG"
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"630"
-		"tall"			"370"
+		"xpos"			"4"
+		"ypos"			"83"
+		"zpos"			"-5"
+		"wide"			"633"
+		"tall"			"288"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"     "0 0 0 100"
 		
 		if_mvm
 		{

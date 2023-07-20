@@ -3,9 +3,9 @@
 	// player health data
 	"HudPlayerHealth"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"imagepanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-245"		[$WIN32]
+		"xpos"			"c-220"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"c20"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -19,6 +19,7 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"fillcolor"     "0 0 0 120"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -28,47 +29,73 @@
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusHealthImageBG"
+	"fundo"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"fieldName"		"fundo"
+		"xpos"			"65"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"45"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-	}	
+		"fillcolor"     "0 0 0 120"
+	}
+	"backgrund"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"backgrund"
+		"xpos"			"65"
+		"xpos_minmode"	"58"
+		"ypos"			"45"
+		"zpos"			"3"
+		"wide"			"75"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"     "0 0 0 120"
+	}
+	"teamcolor"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"teamcolor"
+		"xpos"			"65"
+		"xpos_minmode"	"58"
+		"ypos"			"85"
+		"zpos"			"3"
+		"wide"			"75"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"     "0 45 250 120"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"55"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
+		"zpos"			"5"
 		"wide"			"55"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
+		"tall"			"20"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
@@ -79,15 +106,14 @@
 		"xpos_minmode"	"61"
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"QuestMap_Huge"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -98,8 +124,8 @@
 		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"

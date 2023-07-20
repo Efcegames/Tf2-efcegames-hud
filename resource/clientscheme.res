@@ -2894,7 +2894,19 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"35"
+				"weight"	"550"
+				"additive"	"1"
+				"antialias" "1"
+			}
+		}
+
+        "fontbig"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"45"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3017,6 +3029,18 @@ Scheme
 		}
 
 		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+	    "QuestMap_Huge"
 		{
 			"1"
 			{
@@ -5838,17 +5862,245 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
-		}"8"
+		"Default"
 		{
-			"font" "resource/fonte01.ttf"
-			"name" "Roboto Lightbig"
-			"russian"
+			"1"
 			{
-				"range" "0x0000 0xFFFF"
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
-			"polish"
+			"2"
 			{
-				"range" "0x0000 0xFFFF"
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
-	}
-}
+			"3"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+
+			
+		}
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"2"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+
+
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Futura No2 D Demi Bold"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
