@@ -10,8 +10,6 @@ add some backgrunds
 
 fixed ui 
 # how download the hud?
-its simple click on code
+easy click o realeses and download the zip file 
 
-and click on download zip
-
-extract the zip and them place it on tf/custom
+extract the file and place it in tf/custom folder
